@@ -1,0 +1,106 @@
+.primerbloque {
+background-image: url(../assets/images/playa.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+  color:white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.fondo {
+  background-color: #622C64;
+  opacity: 0.9;
+  height: 100vh;
+  color: white;
+}
+
+.title {
+  transform: translate(30%,40%);
+  width: 60%;
+}
+
+.title h1 {
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+
+.title p {
+  line-height: 2;
+  margin-bottom: 120px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title a {
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+
+
+section.segundobloque {
+background: #ef7b73;
+width: 100%;
+height: 670px;
+text-align: center;
+color: white;
+margin: 0px;
+}
+
+.segundobloque img {
+  height: 200px;
+  width: 200px;
+}
+
+.services1, .services2, .services3 {
+  display: inline-block;
+  padding:70px;
+}
+
+
+
+section.tercerbloque {
+background: white;
+width: 100%;
+height: 2000px;
+text-align: center;
+color: black;
+margin: 0px;
+}
+
+.titulo img {
+  width: 800px;
+  height: 800px;
+}
+
+.works img {
+  width: 300px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8,.work9{
+  float: left;
+}
+
+.tercerbloque h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+}
+
+.works {
+  margin-left: 150px;
+}
+
+footer{
+  background: #706d6d;
+  height: 50px;
+  text-align: center;
+}
+
+/* nuevos estilos

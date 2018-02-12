@@ -1,11 +1,24 @@
-.primerbloque {
-background-image: url(../assets/images/playa.jpg);
+body {
+ font-family: 'Titillium Web', sans-serif;
+}
+
+header {
+background-image: url(../assets/images/image1.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
 color: white;
 }
+
+header h1,a {
+  font-family: 'Acme', sans-serif;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
 .navbar-light .navbar-nav .nav-link{
   color:white;
   font-size: 20px;
@@ -13,7 +26,7 @@ color: white;
 }
 .fondo {
   background-color: #622C64;
-  opacity: 0.9;
+  opacity: 0.8;
   height: 100vh;
   color: white;
 }
@@ -31,32 +44,32 @@ color: white;
 .title p {
   line-height: 2;
   margin-bottom: 120px;
-  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
 }
 
 .title a {
-  font-family: 'Raleway', sans-serif;
   padding: 15px;
   border: 2px solid white;
   border-radius: 5px;
 }
 
 .portfolio {
-background: white;
-width: 100%;
-height: 100vh;
-text-align: center;
-color: black;
-margin: 0px;
+ background: white;
+ height: 100vh;
+ text-align: center;
+ color: black;
 }
-
 
 .portfolio h2 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 60px;
+  margin: 40px;
 }
 
-.skills {
+.portfolio img {
+  margin-top: 40px;
+}
+
+.section-green {
 background-image: url(../assets/images/skills.jpeg);
 background-position: center;
 background-repeat: no-repeat;
@@ -66,16 +79,15 @@ height: 50vh;
 text-align: center;
 color: white;
 margin: 0px;
-font-family: 'Raleway', sans-serif;
 }
 
-.titleSkills {
+.title-section-green {
   background-color: #648E35;
   opacity: 0.9;
   height: 50vh;
 }
 
-.titleSkills h1 {
+.title-section-green h1 {
   font-size: 50px;
   padding-top: 5%;
 }

@@ -4,7 +4,8 @@ header {
 
 .jumbotron {
   color:white;
-  background: linear-gradient(to right,#160d2b , #6C56A7);
+  /*background: linear-gradient(to right,#160d2b , #6C56A7);*/
+  background-color:transparent;
   
 }
 
@@ -22,9 +23,15 @@ section {
   height: 100vh;
 }
 
-header,.skills,.contact {
+.skills,.contact {
  
-  background: linear-gradient(to right,#160d2b , #6C56A7);
+  background: linear-gradient(to right,#130040 , #8c2e9a);
+  
   color: white;
 }
 
+header{
+  background-image: url(../assets/images/fondonubes.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

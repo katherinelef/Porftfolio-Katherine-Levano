@@ -1,8 +1,16 @@
 header {
-  height: 100vh;
+  height: 90vh;
 }
 
-.jumbotron {
+.navbar {
+  background-color: black;
+  height: 10vh;
+  
+}
+.navbar-nav{
+  color: white;
+}
+.box {
   color:white;
   /*background: linear-gradient(to right,#160d2b , #6C56A7);*/
   background-color:transparent;
@@ -34,4 +42,8 @@ header{
   background-image: url(../assets/images/fondonubes.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:white;
 }

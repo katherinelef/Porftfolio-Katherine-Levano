@@ -1,20 +1,32 @@
-header {
-  height: 90vh;
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.letter {
+ font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+}
+
+header{
+  background-image: url(../assets/images/fondonubes.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 85vh;
+  box-sizing: border-box;
 }
 
 .navbar {
   background-color: black;
-  height: 10vh;
+  height: 15vh;
   
 }
 .navbar-nav{
   color: white;
+  
 }
 .box {
-  color:white;
-  /*background: linear-gradient(to right,#160d2b , #6C56A7);*/
-  background-color:transparent;
-  
+  color: black;
+ 
+  padding-top: 15%;
 }
 
 .my-4 {
@@ -23,7 +35,7 @@ header {
 
 .btn {
   background-color: WHITE;
-  color:#014E59;
+  color:black;
   border: 1px solid white;
 }
 
@@ -38,11 +50,7 @@ section {
   color: white;
 }
 
-header{
-  background-image: url(../assets/images/fondonubes.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
+
 
 .navbar-light .navbar-nav .nav-link {
   color:white;

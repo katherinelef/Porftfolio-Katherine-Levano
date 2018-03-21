@@ -13,7 +13,7 @@ header{
   height: 100vh;
   box-sizing: border-box;
 }
-
+ 
 .navbar {
   background-color: black;
   height: 15vh;
@@ -24,12 +24,29 @@ header{
 
 .navbar-nav{
   color: white;
+  font-size: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color:white;
 }
 
+.nav-item:hover {
+  background-color: #24292e;
+  color: white !important;
+  border: 0px solid transparent;
+  border-radius: 4px;
+
+}
+.logo {
+  font-family: cursive;
+  font-size: 30px;
+  color: white !important; 
+  border-radius: 50%;
+  border: 1px solid white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .box {
   color: black;
   padding-top: 15%;
@@ -44,6 +61,8 @@ header{
   border: 1px solid white;
 }
 
+
+
 section {
   height: 100vh;
   box-sizing: border-box;
@@ -51,11 +70,43 @@ section {
 }
 
 .portfolio {
-  background-color: rgb(189, 189, 189);
-}
-footer{
-  height: 30vh;
-  color: grey;
-  background-color:black;
+  background-color:#2f2f2f;
+  color: white;
+  
 }
 
+footer{
+  height: 100vh;
+  color: white;
+  background-color: #2f2f2f;
+  padding-top: 10%;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+.linkedin {
+  background-color: #006097;
+  color: white;
+  box-shadow: 10px 5px 5px black;
+  border: 1px solid transparent;
+}
+
+.github {
+  background-color: #24292e;
+  color: white;
+  box-shadow: 10px 5px 5px black;
+  border: 1px solid transparent;
+}
+
+.gmail {
+  background-color: #f8f8f8;
+  color: #323031;
+  box-shadow: 10px 5px 5px black;
+}
+
+.copyright {
+  position: relative;
+  top: 100px;
+}

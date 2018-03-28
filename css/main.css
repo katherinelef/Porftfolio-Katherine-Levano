@@ -13,6 +13,16 @@ header{
   height: 100vh;
   box-sizing: border-box;
 }
+
+.box {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding-top: 18%;
+}
+
+.box h1,p{
+  color:white;
+}
  
 .navbar {
   background-color: black;
@@ -47,13 +57,6 @@ header{
   padding-left: 5px;
   padding-right: 5px;
 }
-.box {
-  color: black;
-  padding-top: 15%;
-  /*background: linear-gradient(to bottom, #044f81, #a5b7c9);
-  opacity: 0.8;
-  height: 100vh;*/
-}
 
 .btn {
   background-color: #006097;
@@ -79,6 +82,10 @@ section {
 
 .about, .skills {
   padding-top: 10%;
+}
+
+.about p {
+  color:black;
 }
 
 footer{

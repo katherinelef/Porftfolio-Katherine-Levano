@@ -30,7 +30,7 @@ header{
  
 .navbar {
   background-color: transparent;
-  height: 15vh;
+  height: 13vh;
   position: fixed;
   z-index: 1000;
   width: 100%;

@@ -77,7 +77,8 @@ section {
   background-color:#2f2f2f;
   color: white;
   padding-top: 8%;
-  height: 260vh;
+  padding-bottom: 5%;
+  height: auto;
 }
 
 .portfolio .col h1 {
@@ -101,6 +102,8 @@ footer{
   color: white;
   background-color: #2f2f2f;
   padding-top: 10%;
+  box-sizing: border-box;
+  margin-bottom: 0!important;
 }
 
 footer p {
@@ -163,7 +166,7 @@ footer p {
 
 @media (max-width: 576px) {
   .box {
-    padding-top: 40%;
+    padding-top: 45%;
   }
 
   .navbar-toggler {
@@ -174,6 +177,19 @@ footer p {
   .navbar-toggler-icon {
     color: white!important;
     background-color: white;
+  }
+
+  header {
+    margin-right: 0!important;
+  }
+
+  header h1 {
+    font-size: 50px!important;
+  }
+
+  .about {
+    height: auto;
+    padding-bottom: 10%;
   }
 
   .about img {
@@ -191,9 +207,10 @@ footer p {
   }
 
   .portfolio{
-    height: 230vh;
+    height: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10%;
 
   }
 
@@ -201,15 +218,43 @@ footer p {
     margin-bottom: 45px;
   }
 
+  .demo {
+    margin-left: 30%;
+
+  }
+
+  .git {
+    margin-left: 20%;
+  }
+
   .skills{
+    padding-bottom: 10%;
     padding-left: 20px;
     padding-right: 20px;
-    height: 95vh;
-    
+    height: auto;
+      
   }
 
   .progress {
     margin-top: 35px;
   }
 
+  .navbar-collapse{
+    background-color: black;
+    text-align: end;
+    
+  }
+
+   .copyright {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+
+  .mail {
+    font-size: 10px;
+  }
+
+  footer {
+    padding-bottom: 10%;
+  }
 }

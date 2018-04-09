@@ -142,8 +142,7 @@ footer p {
 }
 
 .copyright {
-  position: relative;
-  top: 100px;
+  margin-top: 12%;
 }
 
 .card-body p{
@@ -165,8 +164,14 @@ footer p {
 
 
 @media (max-width: 576px) {
+
+  h1 {
+    font-size: 30px;
+  }
   .box {
     padding-top: 45%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .navbar-toggler {
@@ -214,6 +219,12 @@ footer p {
 
   }
 
+  .portfolio .container {
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+
+
   .portfolio p {
     margin-bottom: 45px;
   }
@@ -247,7 +258,8 @@ footer p {
 
    .copyright {
     margin-bottom: 0;
-    font-size: 12px;
+    margin-top: 25%;
+    font-size: 18px;
   }
 
   .mail {
@@ -257,4 +269,9 @@ footer p {
   footer {
     padding-bottom: 10%;
   }
+
+  .fa-linkedin, .fa-github, .fa-download{
+    font-size: 15px;
+  }
+ 
 }

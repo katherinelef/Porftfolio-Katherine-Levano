@@ -23,9 +23,13 @@ header{
 .box h1,p{
   color:white;
 }
+
+.azul {
+  background-color:#006097!important;
+}
  
 .navbar {
-  background-color: black;
+  background-color: transparent;
   height: 15vh;
   position: fixed;
   z-index: 1000;
@@ -160,6 +164,8 @@ footer p {
   border: 1px solid transparent;
   height: 32px;
 }
+
+
 
 
 

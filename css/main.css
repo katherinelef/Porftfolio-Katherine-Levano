@@ -279,12 +279,16 @@ footer p {
   }
 
   .navbar-collapse{
-    background-color: black;
+    background-color:#006097;
     text-align: end;
-    
+      
   }
 
-   .copyright {
+  .navbar-nav{
+    font-size: 15px;
+  }
+
+  .copyright {
     margin-bottom: 0;
     margin-top: 25%;
     font-size: 18px;
